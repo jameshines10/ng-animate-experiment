@@ -1,0 +1,14 @@
+node_modules
+dist
+.tmp
+.sass-cache
+app/components
+.bowerrc
+.editorconfig
+.gitattributes
+.jshintrc
+bower.json
+karma-e2e.conf.js
+karma.conf.js
+package.json
+.idea
