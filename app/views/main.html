@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>A List Of Awesome Things (without ng-animate)</h1>
+    <div class="row">
+        <div ng-repeat="thing in awesomeThingsOne" class="span12 well small"><h4>{{thing}}</h4></div>
+    </div>
+
+    <h1>A List Of Awesome Things (with ng-animate)</h1>
+    <div class="row">
+        <div ng-repeat="thing in awesomeThingsTwo" class="span12 red well small" ng-animate="'awesome'"><h4>{{thing}}</h4></div>
+    </div>
+</div>
