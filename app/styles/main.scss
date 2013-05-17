@@ -1,1 +1,33 @@
 @import "compass_twitter_bootstrap";
+
+.awesome-enter-setup,
+.awesome-leave-setup{
+  -webkit-transition: 2s linear all;
+  -moz-transition: 2s linear all;
+  -o-transition: 2s linear all;
+  transition: 2s linear all;
+  position:relative;
+}
+
+.awesome-enter-setup {
+  left:100px;
+  opacity:0;
+}
+.awesome-enter-setup.awesome-enter-start {
+  left:0;
+  opacity:1;
+}
+
+.awesome-leave-setup {
+  left:0;
+  opacity:1;
+}
+.awesome-leave-setup.awesome-leave-start {
+  left:-200px;
+  opacity:0;
+}
+
+.red{
+  color: white;
+  background-color: #ff0000;
+}
