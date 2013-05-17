@@ -11,8 +11,7 @@ angular.module('ngAnimateExperimentApp')
         $scope.awesomeThingsTwo = [
             'HTML5 Boilerplate',
             'AngularJS',
-            'Karma',
-            'Pringles'
+            'Karma'
           ];
 
         $timeout(function () {

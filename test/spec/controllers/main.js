@@ -18,6 +18,6 @@ describe('Controller: MainCtrl', function () {
 
   it('should attach a list of awesomeThings to the scope', function () {
     expect(scope.awesomeThingsOne.length).toBe(3);
-    expect(scope.awesomeThingsTwo.length).toBe(4);
+    expect(scope.awesomeThingsTwo.length).toBe(3);
   });
 });
